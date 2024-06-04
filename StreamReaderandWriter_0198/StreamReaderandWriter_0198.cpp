@@ -40,7 +40,7 @@ int main()
 		//melakukan perulangan setiap baris
 		while (getline(infile, baris)) {
 			//menampilkan isi data array
-			cout << baris << '\n';
+			cout << baris << '\n'; 
 		}
 		//menutup file setelah selesai
 		infile.close();
