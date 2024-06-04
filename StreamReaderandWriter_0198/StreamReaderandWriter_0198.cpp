@@ -31,7 +31,7 @@ int main()
 	outfile.close();
 
 	//menunjuk ke sebuah file
-	ifstream infile;
+	ifstream infile; 
 	infile.open("contohfile.txt");
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
