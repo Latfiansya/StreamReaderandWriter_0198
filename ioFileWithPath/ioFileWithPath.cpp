@@ -40,7 +40,7 @@ int main()
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     //jika file ada maka
-    if (infile.is_open()) {
+    if (infile.is_open()) { 
         //meakukan perulangan setiap baris
         while (getline(infile, baris)) {
 
