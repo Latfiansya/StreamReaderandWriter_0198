@@ -46,6 +46,6 @@ int main()
 		infile.close(); 
 	}
 	//jika tidak ada file akan menampilkan berikut ini
-	else cout << "unable to open file ";
+	else cout << "unable to open file "; 
 	return 0;
 }
