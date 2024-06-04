@@ -9,7 +9,7 @@ int main()
 	string baris; 
 
 	//membuka file dalam mode menulis
-	ofstream outfile;
+	ofstream outfile; 
 
 	//menunjuk kesebuah nama file
 	outfile.open("contohfile.txt");
