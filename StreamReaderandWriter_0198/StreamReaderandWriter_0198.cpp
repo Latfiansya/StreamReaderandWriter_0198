@@ -43,7 +43,7 @@ int main()
 			cout << baris << '\n'; 
 		}
 		//menutup file setelah selesai
-		infile.close();
+		infile.close(); 
 	}
 	//jika tidak ada file akan menampilkan berikut ini
 	else cout << "unable to open file ";
