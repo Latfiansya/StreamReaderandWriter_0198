@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	//untuk menyimoan data berbentuk string
-	string baris;
+	string baris; 
 
 	//membuka file dalam mode menulis
 	ofstream outfile;
