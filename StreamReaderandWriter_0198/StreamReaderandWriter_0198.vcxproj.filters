@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StreamReaderandWriter_0198.cpp">
+    <ClCompile Include="ioFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
