@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    cout << "Awal Program" << endl; //penanda 1
+    cout << "Awal Program" << endl; //penanda 1 
     try {
         array<int, 3> data = { 8, 4, 2 };
         //pesan array integer 3 elemen
@@ -17,9 +17,9 @@ int main() {
     catch (exception& e) {
         //penangkap menggunakan obyek exception
         cout << e.what() << endl;
-        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
+        //akan dieksekusi karna array data hanya memiliki 3 elemen
     }
     cout << "Baris program yang terakhir" << endl;
-    /*Penanda 2: Bahwa Program berjalan tanpa berhenti meskipun terjadi kesalahan*/
+    //penanda 2: Bahwa Program berjalan tanpa berhenti meskipun terjadi kesalahan
     return 0;
 }
