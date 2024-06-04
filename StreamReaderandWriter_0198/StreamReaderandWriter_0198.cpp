@@ -24,7 +24,7 @@ int main()
 		//loop akan berhenti jika anda memasukkan karakter q
 		if (baris == "q") break; 
 		//menulis dan memasukkan nilai dari 'baris' ke dalam file
-		outfile << baris << endl;
+		outfile << baris << endl; 
 
 	}
 	//selesai dalam menulis sekrang tutup filenya
